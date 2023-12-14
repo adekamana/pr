@@ -3,3 +3,4 @@ python-pptx
 streamlit
 bing_image_downloader
 pathlib
+streamlit-lottie
