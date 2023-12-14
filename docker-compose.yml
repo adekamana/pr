@@ -1,0 +1,9 @@
+services:
+  streamlit:
+    container_name: presentator
+    command: streamlit run app.py
+    build:
+      dockerfile: ./Dockerfile
+      context: ./
+    ports:
+      - 8080:8080
